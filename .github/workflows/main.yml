@@ -34,7 +34,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: 🛠️ Build Docker Image
-        run: docker build -t marriamokasha/hand-gesture-api:latest .
+        run: docker build -t mariamokashaa/hand-gesture-api:latest .
 
       - name: 🚀 Push Docker Image to Docker Hub
-        run: docker push marriamokasha/hand-gesture-api:latest
+        run: docker push mariamokashaa/hand-gesture-api:latest
